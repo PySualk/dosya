@@ -1,9 +1,7 @@
-import chalk from "chalk";
 import fs = require("fs");
 import ora = require("ora");
-
-import * as path from "path";
-import * as walk from "walk";
+import path = require("path");
+import walk = require("walk");
 
 import { dirname } from "path";
 import { setTimeout } from "timers";

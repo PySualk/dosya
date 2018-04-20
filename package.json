@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/dosya-o-mat.js",
-    "watch": "yarn tsc --watch src/dosya-o-mat.ts",
+    "watch": "tsc -w",
     "lint": "yarn tslint --project ./tsconfig.json",
     "test": "jest"
   },
