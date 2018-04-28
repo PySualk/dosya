@@ -1,11 +1,11 @@
 {
-  "name": "dosya-o-mat",
-  "version": "1.0.0",
-  "main": "dosya-o-mat.js",
+  "name": "dosya",
+  "version": "0.1.0",
+  "main": "dist/dosya.js",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/dosya-o-mat.js",
+    "start": "node dist/dosya.js",
     "watch": "tsc -w",
     "lint": "yarn tslint --project ./tsconfig.json",
     "test": "jest"
