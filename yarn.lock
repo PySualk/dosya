@@ -16,9 +16,31 @@
     esutils "^2.0.2"
     js-tokens "^3.0.0"
 
+"@types/events@*":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@types/events/-/events-1.2.0.tgz#81a6731ce4df43619e5c8c945383b3e62a89ea86"
+
+"@types/glob@*":
+  version "5.0.35"
+  resolved "https://registry.yarnpkg.com/@types/glob/-/glob-5.0.35.tgz#1ae151c802cece940443b5ac246925c85189f32a"
+  dependencies:
+    "@types/events" "*"
+    "@types/minimatch" "*"
+    "@types/node" "*"
+
 "@types/jest@^22.2.3":
   version "22.2.3"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-22.2.3.tgz#0157c0316dc3722c43a7b71de3fdf3acbccef10d"
+
+"@types/minimatch@*":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
+
+"@types/mkdirp@^0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@types/mkdirp/-/mkdirp-0.5.2.tgz#503aacfe5cc2703d5484326b1b27efa67a339c1f"
+  dependencies:
+    "@types/node" "*"
 
 "@types/node@*", "@types/node@^9.6.5":
   version "9.6.6"
@@ -28,6 +50,13 @@
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/@types/ora/-/ora-1.3.4.tgz#b7fbbea8dac9851eb1918a761e2f4fae4cec03f5"
   dependencies:
+    "@types/node" "*"
+
+"@types/rimraf@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@types/rimraf/-/rimraf-2.0.2.tgz#7f0fc3cf0ff0ad2a99bb723ae1764f30acaf8b6e"
+  dependencies:
+    "@types/glob" "*"
     "@types/node" "*"
 
 abab@^1.0.4:
@@ -1053,10 +1082,6 @@ for-own@^0.1.4:
 foreach@^2.0.5:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/foreach/-/foreach-2.0.5.tgz#0bee005018aeb260d0a3af3ae658dd0136ec1b99"
-
-foreachasync@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/foreachasync/-/foreachasync-3.0.0.tgz#5502987dc8714be3392097f32e0071c9dee07cf6"
 
 forever-agent@~0.6.1:
   version "0.6.1"
@@ -2749,7 +2774,7 @@ right-align@^0.1.1:
   dependencies:
     align-text "^0.1.1"
 
-rimraf@^2.5.4, rimraf@^2.6.1:
+rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.2.tgz#2ed8150d24a16ea8651e6d6ef0f47c4158ce7a36"
   dependencies:
@@ -3281,12 +3306,6 @@ w3c-hr-time@^1.0.1:
   resolved "https://registry.yarnpkg.com/w3c-hr-time/-/w3c-hr-time-1.0.1.tgz#82ac2bff63d950ea9e3189a58a65625fedf19045"
   dependencies:
     browser-process-hrtime "^0.1.2"
-
-walk@^2.3.13:
-  version "2.3.13"
-  resolved "https://registry.yarnpkg.com/walk/-/walk-2.3.13.tgz#400852ade80df679f54637e4f08654ed6628f6da"
-  dependencies:
-    foreachasync "^3.0.0"
 
 walker@~1.0.5:
   version "1.0.7"

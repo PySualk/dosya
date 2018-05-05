@@ -1,4 +1,10 @@
 dist/
+mapping.json
+example1.sh
+example2.sh
+example3.sh
+testing/
+prepare.sh
 
 # Logs
 logs

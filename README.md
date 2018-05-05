@@ -2,7 +2,7 @@
 
 Everybody has these messy directories on their computers with hunderds or thousand of files where you only put stuff in it without touching it again. For example my Download directories always are a huge mess :smiley: 
 
-This is a simple NodeJS based command line tool that should help to automatically organize files and directories by implementing different strategies. Take a look at the examples to see what you can use dosya for.
+This is a simple Node.js based command line tool that should help to automatically organize files and directories by implementing different strategies. Take a look at the examples to see what you can use dosya for.
 
 ## Help wanted!
 
