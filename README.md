@@ -13,7 +13,7 @@ I started this project to learn a little TypeScript and to try out some new tech
 
 Right now the only way running dosya is by cloning this project. In the future the project will hopefully also be available via the npm registry. 
 ```sh
-> git clone https://github.com/PySualk/dosya.git
+> git clone https://github.com/PySualk/dosya.git
 > cd dosya/
 > yarn
 > yarn build && yarn start
