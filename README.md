@@ -4,6 +4,8 @@ Everybody has these messy directories on their computers with hunderds or thousa
 
 This is a simple Node.js based command line tool that should help to automatically organize files and directories by implementing different strategies. Take a look at the examples to see what you can use dosya for.
 
+![demo](dosya-help.gif)
+
 ## Help wanted!
 
 I started this project to learn a little TypeScript and to try out some new technologies and libraries. Also I am lookig for people to join. If you are interested drop me a message.
